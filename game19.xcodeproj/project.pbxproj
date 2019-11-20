@@ -25,6 +25,7 @@
 		8231D91A23855B7500E44F19 /* Board.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231D90423855B7400E44F19 /* Board.o */; };
 		8231D91B23855B7500E44F19 /* State.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D90523855B7400E44F19 /* State.cc */; };
 		8231D91C23855B7500E44F19 /* Board.o.MacOS in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231D90623855B7400E44F19 /* Board.o.MacOS */; };
+		8231D91E23855C9800E44F19 /* AIJarvis.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D91D23855C9800E44F19 /* AIJarvis.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +121,7 @@
 		8231D90823855B7400E44F19 /* Action.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Action.hh; sourceTree = "<group>"; };
 		8231D90923855B7400E44F19 /* Board.o.Win32 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Board.o.Win32; sourceTree = "<group>"; };
 		8231D90A23855B7400E44F19 /* State.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = State.hh; sourceTree = "<group>"; };
+		8231D91D23855C9800E44F19 /* AIJarvis.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIJarvis.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				8231D8FC23855B7400E44F19 /* AIDummy.o.Win32 */,
 				8231D8F023855B7300E44F19 /* AIDummy.o.Win64 */,
 				8231D90223855B7400E44F19 /* AINull.cc */,
+				8231D91D23855C9800E44F19 /* AIJarvis.cc */,
 				8231D8EC23855B7300E44F19 /* api.pdf */,
 				8231D8EE23855B7300E44F19 /* Board.hh */,
 				8231D90423855B7400E44F19 /* Board.o */,
@@ -351,6 +354,7 @@
 				8231D90E23855B7500E44F19 /* Game.cc in Sources */,
 				8231D90D23855B7500E44F19 /* Settings.cc in Sources */,
 				8231D90B23855B7500E44F19 /* Registry.cc in Sources */,
+				8231D91E23855C9800E44F19 /* AIJarvis.cc in Sources */,
 				8231D91223855B7500E44F19 /* Utils.cc in Sources */,
 				8231D91323855B7500E44F19 /* AIDemo.cc in Sources */,
 				8231D91123855B7500E44F19 /* Info.cc in Sources */,
