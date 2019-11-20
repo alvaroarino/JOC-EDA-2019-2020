@@ -122,6 +122,8 @@
 		8231D90923855B7400E44F19 /* Board.o.Win32 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Board.o.Win32; sourceTree = "<group>"; };
 		8231D90A23855B7400E44F19 /* State.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = State.hh; sourceTree = "<group>"; };
 		8231D91D23855C9800E44F19 /* AIJarvis.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIJarvis.cc; sourceTree = "<group>"; };
+		8231D91F23855CD900E44F19 /* P44849_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = P44849_en.pdf; sourceTree = "<group>"; };
+		8231D92023855CF400E44F19 /* joc-cat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "joc-cat.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,8 @@
 				8231D8B623855B7300E44F19 /* Structs.hh */,
 				8231D8F723855B7300E44F19 /* Utils.cc */,
 				8231D90023855B7400E44F19 /* Utils.hh */,
+				8231D92023855CF400E44F19 /* joc-cat.pdf */,
+				8231D91F23855CD900E44F19 /* P44849_en.pdf */,
 				8231D8BD23855B7300E44F19 /* Viewer */,
 			);
 			path = game19;
