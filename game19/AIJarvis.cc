@@ -26,25 +26,19 @@ struct PLAYER_NAME : public Player {
         
         vector< vector<bool> > visited(rows(), vector<bool>(cols(), false));
         vector<Dir> directions = {Bottom, BR, Right, RT, Top, TL, Left, LB};
+        vector<int> dirR = random_permutation(directions.size());
         
         queue<Pos> q;
         
         visited[origen.i][origen.j] = true;
         q.push(origen);
         
-        // 'i' will be used to get all adjacent
-        // vertices of a vertex
-        
         while (not q.empty()) {
-            // Dequeue a vertex from queue and print it
             Pos p = q.front();
             q.pop();
             
-            // Get all adjacent vertices of the dequeued
-            // vertex s. If a adjacent has not been visited,
-            // then mark it visited and enqueue it
-            for (Dir d : directions) {
-                Pos p1 = p + d;
+            for (int d : dirR) {
+                Pos p1 = p + directions[d];
                 if (pos_ok(p1) and !visited[p1.i][p1.j]) {
                     visited[p1.i][p1.j] = true;
                     q.push(p1);
@@ -53,11 +47,11 @@ struct PLAYER_NAME : public Player {
                             cell(p1).treasure or
                             (cell(p1).id != -1 and
                                 (unit(cell(p1).id).type == Orc or unit(cell(p1).id).player != me()))) {
-                            command(id, d);
+                            command(id, directions[d]);
                             return;
                         }
                     } else if (cell(p1).type == Rock) {
-                        command(id, d);
+                        command(id, directions[d]);
                     }
                 }
             }
@@ -69,30 +63,24 @@ struct PLAYER_NAME : public Player {
         
         vector< vector<bool> > visited(rows(), vector<bool>(cols(), false));
         vector<Dir> directions = {Bottom, Right, Top, Left};
+        vector<int> dirR = random_permutation(directions.size());
         
         queue<Pos> q;
         
         visited[origen.i][origen.j] = true;
         q.push(origen);
         
-        // 'i' will be used to get all adjacent
-        // vertices of a vertex
-        
         while (not q.empty()) {
-            // Dequeue a vertex from queue and print it
             Pos p = q.front();
             q.pop();
             
-            // Get all adjacent vertices of the dequeued
-            // vertex s. If a adjacent has not been visited,
-            // then mark it visited and enqueue it
-            for (Dir d : directions) {
-                Pos p1 = p + d;
+            for (int d : dirR) {
+                Pos p1 = p + directions[d];
                 if (pos_ok(p1) and !visited[p1.i][p1.j]) {
                     visited[p1.i][p1.j] = true;
                     q.push(p1);
                     if (cell(p1).id == -1 or not cell(p1).treasure) {
-                        command(id, d);
+                        command(id, directions[d]);
                         return;
                     } else if (cell(p1).id != -1 and unit(cell(p1).id).player == me()) {
                         command(id, None);
