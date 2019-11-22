@@ -10,6 +10,8 @@
 #
 # to AIDummy.o
 #
+# That is, if you use Linux64: cp AIDummy.o.Linux64 AIDummy.o
+#
 # 2) Copy one of the objects:
 #
 # Board.o.Linux64 (Linux   64 bits)
@@ -20,7 +22,7 @@
 #
 # to Board.o
 #
-#
+# # That is, if you use Linux64: cp Board.o.Linux64 Board.o
 #
 DUMMY_OBJ = AIDummy.o
 BOARD_OBJ = Board.o
@@ -55,7 +57,7 @@ ifeq ($(strip $(32BITS)),1)
 	ARCHFLAGS=-m32 -L/usr/lib32
 endif
 
-CXXFLAGS = -std=c++11 -Wall -Wno-unused-variable $(ARCHFLAGS) $(PROFILEFLAGS) $(DEBUGFLAGS) -O$(strip $(OPTIMIZE))
+CXXFLAGS = -std=c++11 -Wall -Wno-unused-variable $(ARCHFLAGS) $(PROFILEFLAGS) $(DEBUGFLAGS) -O$(strip $(OPTIMIZE)) -fPIC
 
 LDFLAGS  = -std=c++11 -lm $(ARCHFLAGS) $(PROFILEFLAGS) $(DEBUGFLAGS) -O$(strip $(OPTIMIZE))
 

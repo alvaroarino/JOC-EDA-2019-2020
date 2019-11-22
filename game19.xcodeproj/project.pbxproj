@@ -6,42 +6,8 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		8231D90B23855B7500E44F19 /* Registry.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8B823855B7300E44F19 /* Registry.cc */; };
-		8231D90C23855B7500E44F19 /* AIDummy.o.MacOS in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231D8B923855B7300E44F19 /* AIDummy.o.MacOS */; };
-		8231D90D23855B7500E44F19 /* Settings.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8BC23855B7300E44F19 /* Settings.cc */; };
-		8231D90E23855B7500E44F19 /* Game.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8EB23855B7300E44F19 /* Game.cc */; };
-		8231D90F23855B7500E44F19 /* Action.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8F223855B7300E44F19 /* Action.cc */; };
-		8231D91023855B7500E44F19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8F423855B7300E44F19 /* main.cpp */; };
-		8231D91123855B7500E44F19 /* Info.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8F523855B7300E44F19 /* Info.cc */; };
-		8231D91223855B7500E44F19 /* Utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8F723855B7300E44F19 /* Utils.cc */; };
-		8231D91323855B7500E44F19 /* AIDemo.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8F823855B7300E44F19 /* AIDemo.cc */; };
-		8231D91423855B7500E44F19 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8FB23855B7300E44F19 /* Makefile */; };
-		8231D91523855B7500E44F19 /* Random.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8FD23855B7400E44F19 /* Random.cc */; };
-		8231D91623855B7500E44F19 /* Structs.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D8FF23855B7400E44F19 /* Structs.cc */; };
-		8231D91723855B7500E44F19 /* Main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D90123855B7400E44F19 /* Main.cc */; };
-		8231D91823855B7500E44F19 /* AINull.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D90223855B7400E44F19 /* AINull.cc */; };
-		8231D91923855B7500E44F19 /* Player.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D90323855B7400E44F19 /* Player.cc */; };
-		8231D91A23855B7500E44F19 /* Board.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231D90423855B7400E44F19 /* Board.o */; };
-		8231D91B23855B7500E44F19 /* State.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D90523855B7400E44F19 /* State.cc */; };
-		8231D91C23855B7500E44F19 /* Board.o.MacOS in Frameworks */ = {isa = PBXBuildFile; fileRef = 8231D90623855B7400E44F19 /* Board.o.MacOS */; };
-		8231D91E23855C9800E44F19 /* AIJarvis.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8231D91D23855C9800E44F19 /* AIJarvis.cc */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8231D84523855B2A00E44F19 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		8231D84723855B2A00E44F19 /* game19 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = game19; sourceTree = BUILT_PRODUCTS_DIR; };
+		82052CF62385696E00FDF45A /* joc-cat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "joc-cat.pdf"; path = "game19/joc-cat.pdf"; sourceTree = SOURCE_ROOT; };
 		8231D8B623855B7300E44F19 /* Structs.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Structs.hh; sourceTree = "<group>"; };
 		8231D8B723855B7300E44F19 /* AIDummy.o.Linux64 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AIDummy.o.Linux64; sourceTree = "<group>"; };
 		8231D8B823855B7300E44F19 /* Registry.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Registry.cc; sourceTree = "<group>"; };
@@ -98,7 +64,6 @@
 		8231D8F123855B7300E44F19 /* Random.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Random.hh; sourceTree = "<group>"; };
 		8231D8F223855B7300E44F19 /* Action.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Action.cc; sourceTree = "<group>"; };
 		8231D8F323855B7300E44F19 /* Info.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Info.hh; sourceTree = "<group>"; };
-		8231D8F423855B7300E44F19 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8231D8F523855B7300E44F19 /* Info.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Info.cc; sourceTree = "<group>"; };
 		8231D8F623855B7300E44F19 /* Settings.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Settings.hh; sourceTree = "<group>"; };
 		8231D8F723855B7300E44F19 /* Utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cc; sourceTree = "<group>"; };
@@ -123,21 +88,8 @@
 		8231D90A23855B7400E44F19 /* State.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = State.hh; sourceTree = "<group>"; };
 		8231D91D23855C9800E44F19 /* AIJarvis.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIJarvis.cc; sourceTree = "<group>"; };
 		8231D91F23855CD900E44F19 /* P44849_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = P44849_en.pdf; sourceTree = "<group>"; };
-		8231D92023855CF400E44F19 /* joc-cat.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "joc-cat.pdf"; sourceTree = "<group>"; };
+		82B243C123886E2B001413CF /* main_ca.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = main_ca.pdf; path = game19/main_ca.pdf; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		8231D84423855B2A00E44F19 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8231D91C23855B7500E44F19 /* Board.o.MacOS in Frameworks */,
-				8231D91A23855B7500E44F19 /* Board.o in Frameworks */,
-				8231D90C23855B7500E44F19 /* AIDummy.o.MacOS in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8231D83E23855B2A00E44F19 = {
@@ -151,7 +103,6 @@
 		8231D84823855B2A00E44F19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8231D84723855B2A00E44F19 /* game19 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,7 +134,6 @@
 				8231D8F523855B7300E44F19 /* Info.cc */,
 				8231D8F323855B7300E44F19 /* Info.hh */,
 				8231D90123855B7400E44F19 /* Main.cc */,
-				8231D8F423855B7300E44F19 /* main.cpp */,
 				8231D8FB23855B7300E44F19 /* Makefile */,
 				8231D90323855B7400E44F19 /* Player.cc */,
 				8231D8FA23855B7300E44F19 /* Player.hh */,
@@ -199,7 +149,8 @@
 				8231D8B623855B7300E44F19 /* Structs.hh */,
 				8231D8F723855B7300E44F19 /* Utils.cc */,
 				8231D90023855B7400E44F19 /* Utils.hh */,
-				8231D92023855CF400E44F19 /* joc-cat.pdf */,
+				82052CF62385696E00FDF45A /* joc-cat.pdf */,
+				82B243C123886E2B001413CF /* main_ca.pdf */,
 				8231D91F23855CD900E44F19 /* P44849_en.pdf */,
 				8231D8BD23855B7300E44F19 /* Viewer */,
 			);
@@ -295,25 +246,22 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		8231D84623855B2A00E44F19 /* game19 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8231D84E23855B2A00E44F19 /* Build configuration list for PBXNativeTarget "game19" */;
+/* Begin PBXLegacyTarget section */
+		8231D9342385682700E44F19 /* game */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 8231D9352385682700E44F19 /* Build configuration list for PBXLegacyTarget "game" */;
 			buildPhases = (
-				8231D84323855B2A00E44F19 /* Sources */,
-				8231D84423855B2A00E44F19 /* Frameworks */,
-				8231D84523855B2A00E44F19 /* CopyFiles */,
 			);
-			buildRules = (
-			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/alvaroarinocabau/Google Drive/FIB/5/EDA/Joc/game19/game19";
 			dependencies = (
 			);
-			name = game19;
-			productName = game19;
-			productReference = 8231D84723855B2A00E44F19 /* game19 */;
-			productType = "com.apple.product-type.tool";
+			name = game;
+			passBuildSettingsInEnvironment = 1;
+			productName = game;
 		};
-/* End PBXNativeTarget section */
+/* End PBXLegacyTarget section */
 
 /* Begin PBXProject section */
 		8231D83F23855B2A00E44F19 /* Project object */ = {
@@ -322,7 +270,7 @@
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Alvaro Ariño Cabau";
 				TargetAttributes = {
-					8231D84623855B2A00E44F19 = {
+					8231D9342385682700E44F19 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -340,36 +288,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8231D84623855B2A00E44F19 /* game19 */,
+				8231D9342385682700E44F19 /* game */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		8231D84323855B2A00E44F19 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8231D91923855B7500E44F19 /* Player.cc in Sources */,
-				8231D91723855B7500E44F19 /* Main.cc in Sources */,
-				8231D91823855B7500E44F19 /* AINull.cc in Sources */,
-				8231D91523855B7500E44F19 /* Random.cc in Sources */,
-				8231D91423855B7500E44F19 /* Makefile in Sources */,
-				8231D90E23855B7500E44F19 /* Game.cc in Sources */,
-				8231D90D23855B7500E44F19 /* Settings.cc in Sources */,
-				8231D90B23855B7500E44F19 /* Registry.cc in Sources */,
-				8231D91E23855C9800E44F19 /* AIJarvis.cc in Sources */,
-				8231D91223855B7500E44F19 /* Utils.cc in Sources */,
-				8231D91323855B7500E44F19 /* AIDemo.cc in Sources */,
-				8231D91123855B7500E44F19 /* Info.cc in Sources */,
-				8231D91023855B7500E44F19 /* main.cpp in Sources */,
-				8231D91B23855B7500E44F19 /* State.cc in Sources */,
-				8231D90F23855B7500E44F19 /* Action.cc in Sources */,
-				8231D91623855B7500E44F19 /* Structs.cc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		8231D84C23855B2A00E44F19 /* Debug */ = {
@@ -481,18 +403,27 @@
 			};
 			name = Release;
 		};
-		8231D84F23855B2A00E44F19 /* Debug */ = {
+		8231D9362385682700E44F19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		8231D85023855B2A00E44F19 /* Release */ = {
+		8231D9372385682700E44F19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -509,11 +440,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8231D84E23855B2A00E44F19 /* Build configuration list for PBXNativeTarget "game19" */ = {
+		8231D9352385682700E44F19 /* Build configuration list for PBXLegacyTarget "game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8231D84F23855B2A00E44F19 /* Debug */,
-				8231D85023855B2A00E44F19 /* Release */,
+				8231D9362385682700E44F19 /* Debug */,
+				8231D9372385682700E44F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
