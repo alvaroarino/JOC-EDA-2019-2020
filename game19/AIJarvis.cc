@@ -4,7 +4,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Jarvis
+#define PLAYER_NAME JarvisDemoWinner
 
 
 struct PLAYER_NAME : public Player {
@@ -17,6 +17,8 @@ struct PLAYER_NAME : public Player {
         return new PLAYER_NAME;
     }
     
+	// Capaz de vencer a la Demo
+	
     /**
      * Types and attributes for your player can be defined here.
      */

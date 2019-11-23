@@ -86,8 +86,9 @@
 		8231D90823855B7400E44F19 /* Action.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Action.hh; sourceTree = "<group>"; };
 		8231D90923855B7400E44F19 /* Board.o.Win32 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Board.o.Win32; sourceTree = "<group>"; };
 		8231D90A23855B7400E44F19 /* State.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = State.hh; sourceTree = "<group>"; };
-		8231D91D23855C9800E44F19 /* AIJarvis.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIJarvis.cc; sourceTree = "<group>"; };
+		8231D91D23855C9800E44F19 /* AIJarvis.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIJarvis.cc; sourceTree = "<group>"; usesTabs = 1; };
 		8231D91F23855CD900E44F19 /* P44849_en.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = P44849_en.pdf; sourceTree = "<group>"; };
+		8271430323895B27005F429F /* AIJarvisv2.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AIJarvisv2.cc; sourceTree = "<group>"; };
 		82B243C123886E2B001413CF /* main_ca.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = main_ca.pdf; path = game19/main_ca.pdf; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -110,48 +111,13 @@
 		8231D84923855B2A00E44F19 /* game19 */ = {
 			isa = PBXGroup;
 			children = (
-				8231D8F223855B7300E44F19 /* Action.cc */,
-				8231D90823855B7400E44F19 /* Action.hh */,
-				8231D8F823855B7300E44F19 /* AIDemo.cc */,
-				8231D8BA23855B7300E44F19 /* AIDummy.o.Linux32 */,
-				8231D8B723855B7300E44F19 /* AIDummy.o.Linux64 */,
-				8231D8B923855B7300E44F19 /* AIDummy.o.MacOS */,
-				8231D8FC23855B7400E44F19 /* AIDummy.o.Win32 */,
-				8231D8F023855B7300E44F19 /* AIDummy.o.Win64 */,
-				8231D90223855B7400E44F19 /* AINull.cc */,
+				8271430323895B27005F429F /* AIJarvisv2.cc */,
 				8231D91D23855C9800E44F19 /* AIJarvis.cc */,
 				8231D8EC23855B7300E44F19 /* api.pdf */,
-				8231D8EE23855B7300E44F19 /* Board.hh */,
-				8231D90423855B7400E44F19 /* Board.o */,
-				8231D8F923855B7300E44F19 /* Board.o.Linux32 */,
-				8231D8EF23855B7300E44F19 /* Board.o.Linux64 */,
-				8231D90623855B7400E44F19 /* Board.o.MacOS */,
-				8231D90923855B7400E44F19 /* Board.o.Win32 */,
-				8231D8ED23855B7300E44F19 /* Board.o.Win64 */,
-				8231D90723855B7400E44F19 /* default.cnf */,
-				8231D8EB23855B7300E44F19 /* Game.cc */,
-				8231D8FE23855B7400E44F19 /* Game.hh */,
-				8231D8F523855B7300E44F19 /* Info.cc */,
-				8231D8F323855B7300E44F19 /* Info.hh */,
-				8231D90123855B7400E44F19 /* Main.cc */,
-				8231D8FB23855B7300E44F19 /* Makefile */,
-				8231D90323855B7400E44F19 /* Player.cc */,
-				8231D8FA23855B7300E44F19 /* Player.hh */,
-				8231D8FD23855B7400E44F19 /* Random.cc */,
-				8231D8F123855B7300E44F19 /* Random.hh */,
-				8231D8B823855B7300E44F19 /* Registry.cc */,
-				8231D8BB23855B7300E44F19 /* Registry.hh */,
-				8231D8BC23855B7300E44F19 /* Settings.cc */,
-				8231D8F623855B7300E44F19 /* Settings.hh */,
-				8231D90523855B7400E44F19 /* State.cc */,
-				8231D90A23855B7400E44F19 /* State.hh */,
-				8231D8FF23855B7400E44F19 /* Structs.cc */,
-				8231D8B623855B7300E44F19 /* Structs.hh */,
-				8231D8F723855B7300E44F19 /* Utils.cc */,
-				8231D90023855B7400E44F19 /* Utils.hh */,
 				82052CF62385696E00FDF45A /* joc-cat.pdf */,
 				82B243C123886E2B001413CF /* main_ca.pdf */,
 				8231D91F23855CD900E44F19 /* P44849_en.pdf */,
+				8271430423895B2F005F429F /* Others */,
 				8231D8BD23855B7300E44F19 /* Viewer */,
 			);
 			path = game19;
@@ -242,6 +208,50 @@
 				8231D8E723855B7300E44F19 /* but_end.png */,
 			);
 			path = img;
+			sourceTree = "<group>";
+		};
+		8271430423895B2F005F429F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8231D8F223855B7300E44F19 /* Action.cc */,
+				8231D90823855B7400E44F19 /* Action.hh */,
+				8231D8F823855B7300E44F19 /* AIDemo.cc */,
+				8231D8BA23855B7300E44F19 /* AIDummy.o.Linux32 */,
+				8231D8B723855B7300E44F19 /* AIDummy.o.Linux64 */,
+				8231D8B923855B7300E44F19 /* AIDummy.o.MacOS */,
+				8231D8FC23855B7400E44F19 /* AIDummy.o.Win32 */,
+				8231D8F023855B7300E44F19 /* AIDummy.o.Win64 */,
+				8231D90223855B7400E44F19 /* AINull.cc */,
+				8231D8EE23855B7300E44F19 /* Board.hh */,
+				8231D90423855B7400E44F19 /* Board.o */,
+				8231D8F923855B7300E44F19 /* Board.o.Linux32 */,
+				8231D8EF23855B7300E44F19 /* Board.o.Linux64 */,
+				8231D90623855B7400E44F19 /* Board.o.MacOS */,
+				8231D90923855B7400E44F19 /* Board.o.Win32 */,
+				8231D8ED23855B7300E44F19 /* Board.o.Win64 */,
+				8231D90723855B7400E44F19 /* default.cnf */,
+				8231D8EB23855B7300E44F19 /* Game.cc */,
+				8231D8FE23855B7400E44F19 /* Game.hh */,
+				8231D8F523855B7300E44F19 /* Info.cc */,
+				8231D8F323855B7300E44F19 /* Info.hh */,
+				8231D90123855B7400E44F19 /* Main.cc */,
+				8231D8FB23855B7300E44F19 /* Makefile */,
+				8231D90323855B7400E44F19 /* Player.cc */,
+				8231D8FA23855B7300E44F19 /* Player.hh */,
+				8231D8FD23855B7400E44F19 /* Random.cc */,
+				8231D8F123855B7300E44F19 /* Random.hh */,
+				8231D8B823855B7300E44F19 /* Registry.cc */,
+				8231D8BB23855B7300E44F19 /* Registry.hh */,
+				8231D8BC23855B7300E44F19 /* Settings.cc */,
+				8231D8F623855B7300E44F19 /* Settings.hh */,
+				8231D90523855B7400E44F19 /* State.cc */,
+				8231D90A23855B7400E44F19 /* State.hh */,
+				8231D8FF23855B7400E44F19 /* Structs.cc */,
+				8231D8B623855B7300E44F19 /* Structs.hh */,
+				8231D8F723855B7300E44F19 /* Utils.cc */,
+				8231D90023855B7400E44F19 /* Utils.hh */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
